@@ -12,19 +12,19 @@
  */
 function var_name( &$var, $scope = false, $more_entropy = false ) {
   if ( $scope ) {
-    $vals = $scope;
+    $vars = $scope;
   } else {
-    $vals = $GLOBALS;
+    $vars = $GLOBALS;
   }
-  $old = $var;
-  $var = $new = uniqid( __FUNCTION__, $more_entropy );
-  $vname = false;
-  foreach ( $vals as $key => $val ) {
-    if ( $val === $new ) {
-      $vname = $key;
+  $tmp = $var;
+  $var = uniqid( __FUNCTION__, $more_entropy );
+  $name = false;
+  foreach ( $vars as $key => $val ) {
+    if ( $val === $var ) {
+      $name = $key;
     }
   }
-  $var = $old;
+  $var = $tmp;
 
-  return $vname;
+  return $name;
 }
