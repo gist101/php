@@ -1,6 +1,11 @@
 <?php
 // Get a variable name as string.
 // @author Kolier.Li
+// @see /genie/var/var_name.php
+
+// =============================================================================
+// References
+// =============================================================================
 
 // @link http://stackoverflow.com/a/4034225
 function variable_name( &$var, $scope=false, $prefix='UNIQUE', $suffix='VARIABLE' ) {

@@ -41,17 +41,17 @@ require_once __DIR__ . '/../array/sample.php';
 // -----------------------------------------------------------------------------
 
 // Simple test function
-function test( $callable, $array ) {
-  echo 'Testing ' . $callable . ' with ';
+function test( $callable, $array, $var_name ) {
+  echo 'Testing ' . $callable . '( ' . $var_name . " ):\n";
   $callable( $array );
   var_dump( $array );
 }
 
 // Number
-test( 'sort', $array_int_number_desc );
+test( 'sort', $array_int_number_desc, '$array_int_number_desc' );
 
 // Associate
-test( 'sort', $array_assoc_number_asc_desc );
+test( 'sort', $array_assoc_number_asc_desc, '$array_assoc_number_asc_desc' );
 
 // Mixed
-test( 'sort', $array_mixed );
+test( 'sort', $array_mixed, '$array_mixed' );
