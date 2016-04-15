@@ -1,4 +1,5 @@
 <?php
+// @author Kolier.Li
 
 require_once __DIR__ . '/../../../genie/string/cjk_count.php';
 
