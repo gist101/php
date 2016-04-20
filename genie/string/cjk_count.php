@@ -10,6 +10,7 @@
  * Only support UTF-8.
  *
  * @param string $string The string being tested.
+ * @return int Amount of CJK characters.
  */
 function cjk_count( $string ) {
   return preg_match_all( '/[\x{0800}-\x{3FFFF}]/u', $string );
