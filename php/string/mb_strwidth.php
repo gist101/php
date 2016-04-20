@@ -13,4 +13,5 @@ echo mb_strlen( $text_cn ) . "\n"; // 3
 echo mb_strwidth( $text_cn, 'utf-8' ) . "\n"; // 6
 echo mb_strwidth( $text_mix ) . "\n"; // 11
 echo mb_strwidth( $text_mix_spaces ) . "\n"; // 12
+echo strlen( $text_ar ) . "\n"; // 
 echo mb_strwidth( $text_ar ); // 12
