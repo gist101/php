@@ -50,14 +50,14 @@ class Magic {
 
 trait MagicTrait {
 
-  public function printTraitName() {
+  public function getTraitName() {
     s( __TRAIT__ );
   }
 
 }
 
 $magic = new Magic();
-$magic->printTraitName();
+$magic->getTraitName();
 
 
 

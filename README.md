@@ -6,5 +6,9 @@ Manual
 ------
 * http://php.net
 * http://php.net/manual/en/langref.php
+* http://php.net/manual/en/ini.php
 * http://stackoverflow.com/questions/tagged/php
 
+Collections
+-----------
+* [awesome-php](https://github.com/ziadoz/awesome-php) A curated list of amazingly awesome PHP libraries, resources and shiny things.
