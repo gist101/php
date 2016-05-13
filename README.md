@@ -12,3 +12,4 @@ Manual
 Collections
 -----------
 * [awesome-php](https://github.com/ziadoz/awesome-php) A curated list of amazingly awesome PHP libraries, resources and shiny things.
+* [PHP Trends Popular](http://phptrends.com/top) List of popular PHP libraries.
